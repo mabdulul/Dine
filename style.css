@@ -84,10 +84,10 @@ h3 {
     color: white;
     font-weight: 300;
     border: 1px solid #FFFFFF;
-    height: 64px;
-    letter-spacing: 2px;
+    height: fit-content;
+    letter-spacing: .2rem;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 28px;
 }
 
 .btn:hover {
@@ -130,13 +130,13 @@ h3 {
     .header_imgTop {
         background-image: url("./hero-bg.jpg");
         background-position-x: right;
-        padding: 60px;
+        padding: 80px 71px;
     }
 
     .header_content {
-        grid-template-rows: repeat(4, 1fr);
+        grid-template-rows: 1fr 1fr 90px 1fr;
         max-width: 511px;
-        /* grid-template-rows: 80px 80px 20px 80px; */
+
     }
 
     .center {
