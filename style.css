@@ -72,7 +72,21 @@ h3 {
 .logo {
     display: flex;
     justify-content: center;
+    animation: 800ms ease-in 1 slideInFromLeft;
 }
+
+@keyframes slideInFromLeft {
+    0% {
+        transform: translateX(-100%);
+        opacity: 0%;
+    }
+
+    100% {
+        transform: translate(0);
+        opacity: 100%;
+    }
+}
+
 
 .btn {
     width: 100%;
@@ -94,6 +108,7 @@ h3 {
     color: #17192B;
     background: #FFFFFF;
     border: 1px solid #FFFFFF;
+    transition: background-color .5s;
 }
 
 .header_text {
