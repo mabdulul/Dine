@@ -106,17 +106,17 @@ h3 {
 
 @media (min-width: 768px) {
     .header_imgTop {
-        background-image: url("./tablet_hero.png");
+        background-image: url("./herobgmobile.jpg");
         padding: 165px;
     }
 
     .header_content {
-        padding: 0px 75px;
+        margin-top: 55%
     }
 
     .header_h1 {
         font-size: 48px;
-        padding: 0px 106px;
+
         line-height: 64px;
     }
 
