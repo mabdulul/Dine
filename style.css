@@ -116,7 +116,6 @@ h3 {
 
     .header_h1 {
         font-size: 48px;
-
         line-height: 64px;
     }
 
@@ -134,6 +133,7 @@ h3 {
     }
 
     .header_content {
+        margin-top: 0px;
         grid-template-rows: 1fr 1fr 90px 1fr;
         max-width: 511px;
 
