@@ -21,8 +21,22 @@
 			</div>
 		</header>
 		<section class="About">
-			<div>
-				<img src="" alt="" srcset="" />
+			<div class="About_ImageHolder center">
+				<picture class="center">
+					<source
+						media="(min-width: 992px)"
+						alt="relaxing image"
+						srcset="./header_moblie_image.jpg"
+						class="About_ImageHolder"
+					/>
+					<source
+						media="(min-width: 768px)"
+						alt="relaxing image"
+						srcset="./header_tablet.jpg"
+						class="About_ImageHolder"
+					/>
+					<img src="./header_moblie.jpg" class="About_ImageHolder" />
+				</picture>
 			</div>
 		</section>
 		<footer></footer>

@@ -27,6 +27,10 @@ h3 {
     line-height: 28px;
 }
 
+header {
+    padding-bottom: 140px;
+}
+
 .center {
     margin-left: auto;
     margin-right: auto;
@@ -35,9 +39,10 @@ h3 {
 
 .header_content {
     display: grid;
-    padding: 20px;
-
+    padding: 60px 20px 120px 20px;
     grid-row-gap: 30px;
+    position: relative;
+    top: 130px
 }
 
 .header {
@@ -51,8 +56,8 @@ h3 {
     background-image: url("./herobgmobile.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    padding-top: 200px;
 
+    background-position: center;
     mix-blend-mode: normal;
 
 }
@@ -72,18 +77,18 @@ h3 {
 .logo {
     display: flex;
     justify-content: center;
-    animation: 800ms ease-in 1 slideInFromLeft;
+    animation: 900ms ease-in 1 slideInFromLeft;
 }
 
 @keyframes slideInFromLeft {
     0% {
         transform: translateX(-100%);
-        opacity: 0%;
+        opacity: 0;
     }
 
     100% {
         transform: translate(0);
-        opacity: 100%;
+        opacity: 1;
     }
 }
 
@@ -141,16 +146,21 @@ h3 {
 }
 
 @media (min-width: 992px) {
+    header {
+        padding-bottom: 0px;
+    }
+
     .header_imgTop {
         background-image: url("./hero-bg.jpg");
         background-position-x: right;
-        padding: 80px 71px;
+        padding: 20px 71px;
     }
 
     .header_content {
         margin-top: 0px;
         grid-template-rows: 1fr 1fr 90px 1fr;
         max-width: 511px;
+        top: 0px;
 
     }
 
@@ -176,4 +186,29 @@ h3 {
     .btn {
         width: auto;
     }
+}
+
+/********************** About ***********************/
+.About_ImageHolder {
+    position: relative;
+    top: -90px;
+    width: 327px;
+}
+
+
+
+
+.img-responsive {
+    max-width: 100%;
+    height: auto;
+}
+
+@media (min-width: 992px) {
+
+    .About_ImageHolder {
+        width: 540px;
+        margin-left: 23px;
+
+    }
+
 }
