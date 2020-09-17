@@ -132,7 +132,6 @@ header {
 
     .header_content {
         margin-top: 55%;
-        padding: 0px;
         top: 0px;
     }
 
@@ -205,10 +204,10 @@ header {
     height: auto;
 }
 
-@media(min-width: 768px) {
+@media (min-width: 768px) {
+
     .About_ImageHolder {
         width: 573px;
-
 
     }
 
