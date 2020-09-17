@@ -131,7 +131,9 @@ header {
     }
 
     .header_content {
-        margin-top: 55%
+        margin-top: 55%;
+        padding: 0px;
+        top: 0px;
     }
 
     .header_h1 {
@@ -201,6 +203,15 @@ header {
 .img-responsive {
     max-width: 100%;
     height: auto;
+}
+
+@media(min-width: 768px) {
+    .About_ImageHolder {
+        width: 573px;
+
+
+    }
+
 }
 
 @media (min-width: 992px) {
