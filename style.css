@@ -206,6 +206,10 @@ header {
 
 @media (min-width: 768px) {
 
+    header {
+        padding-bottom: 0px;
+    }
+
     .About_ImageHolder {
         width: 573px;
 
