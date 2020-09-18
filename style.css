@@ -144,6 +144,10 @@ header {
         font-size: 18px;
     }
 
+    header {
+        padding-bottom: 0px;
+    }
+
 }
 
 @media (min-width: 992px) {
@@ -206,9 +210,7 @@ header {
 
 @media (min-width: 768px) {
 
-    header {
-        padding-bottom: 0px;
-    }
+
 
     .About_ImageHolder {
         width: 573px;
@@ -222,6 +224,7 @@ header {
     .About_ImageHolder {
         width: 540px;
         margin-left: 23px;
+        margin-top: 30px;
 
     }
 
