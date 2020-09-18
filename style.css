@@ -1,11 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 * {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
 body {
-    margin: 0px;
+
     font-family: 'Spartan', sans-serif;
 }
 
@@ -42,7 +44,7 @@ header {
     padding: 60px 20px 120px 20px;
     grid-row-gap: 30px;
     position: relative;
-    top: 130px
+    top: 190px
 }
 
 .header {
@@ -194,10 +196,20 @@ header {
 }
 
 /********************** About ***********************/
+.About {
+    display: grid;
+    justify-items: center;
+}
+
 .About_ImageHolder {
     position: relative;
-    top: -90px;
+    top: -50px;
     width: 300px;
+}
+
+.vector_decoration {
+    position: relative;
+    top: -60px;
 }
 
 
@@ -209,9 +221,6 @@ header {
 }
 
 @media (min-width: 768px) {
-
-
-
     .About_ImageHolder {
         width: 573px;
 
