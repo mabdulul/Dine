@@ -234,6 +234,9 @@ header {
     justify-content: center;
     flex-wrap: wrap;
     text-align: center;
+    width: 324px;
+    min-width: 324px;
+    max-width: 100%;
 
 
 }
