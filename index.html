@@ -21,8 +21,26 @@
 			</div>
 		</header>
 		<section class="About">
+			<div class="About_decorationBox">
+				<picture>
+					<source
+						media="(min-width: 992px)"
+						alt="box_decoration"
+						srcset="./Rectangle_desktop.svg"
+						width="895px"
+					/>
+					<source
+						media="(min-width: 768px)"
+						alt="box_decoration"
+						srcset="./Rectangle_tablet.svg"
+						width="378px"
+					/>
+					<img src="./header_moblie.jpg" />
+				</picture>
+			</div>
+
 			<div class="About_ImageHolder">
-				<picture >
+				<picture>
 					<source
 						media="(min-width: 992px)"
 						alt="relaxing image"
@@ -36,10 +54,26 @@
 						class="About_ImageHolder"
 					/>
 					<img src="./header_moblie.jpg" class="About_ImageHolder" />
-                </picture>
-            </div>
-            <img  class="vector_decoration"src="./Vector.png" alt="Decoration" srcset="" />
-				
+				</picture>
+			</div>
+			<div class="About_text">
+				<div class="vector_decoration hidden_in_desktop">
+					<img src="./Vector.png" alt="Decoration" srcset="" />
+				</div>
+				<div class="this">
+					<img
+						class="vector_decoration hidden_in_moblietablet"
+						src="./Vector.png"
+						alt="Decoration"
+						srcset=""
+					/>
+
+					<h2>Enjoyable place for all the family</h2>
+					<p>
+						Our relaxed surroundings make dining with us a great experience for
+						everyone. We can even arrange a tour of the farm before your meal.
+					</p>
+				</div>
 			</div>
 		</section>
 		<footer></footer>
