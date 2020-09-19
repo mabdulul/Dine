@@ -196,6 +196,18 @@ header {
 }
 
 /********************** About ***********************/
+.About_textBlock h2 {
+    font-size: 32px;
+}
+
+.About_textBlock p {
+    font-size: 15px;
+    line-height: 30px;
+    /* or 167% */
+
+    letter-spacing: -0.225px;
+}
+
 .About {
     display: grid;
     justify-items: center;
@@ -222,6 +234,8 @@ header {
     justify-content: center;
     flex-wrap: wrap;
     text-align: center;
+
+
 }
 
 
@@ -234,18 +248,25 @@ header {
     display: none;
 }
 
+
+
 @media (min-width: 768px) {
     .About_decorationBox {
         display: block;
         z-index: -1;
         position: absolute;
-        top: 15%;
+        top: 20%;
         justify-self: left;
     }
 
 
     .About_ImageHolder {
         width: 573px;
+
+    }
+
+    .About_textBlock p {
+        font-size: 18px;
 
     }
 
@@ -282,9 +303,14 @@ header {
         top: 15%;
         display: grid;
         text-align: left;
-
         grid-template-rows: 0px 108px;
+        max-width: 420px;
 
+    }
+
+    .About_textBlock {
+        display: grid;
+        grid-template-rows: 34px 8rem auto;
     }
 
     .About_decorationBox {}
