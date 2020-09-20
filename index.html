@@ -20,7 +20,8 @@
 				</div>
 			</div>
 		</header>
-		<section class="About">
+		<!-----------------------------------------------About Left------------------------------------->
+		<section class="About About_left">
 			<div class="About_decorationBox">
 				<picture>
 					<source
@@ -35,11 +36,11 @@
 						srcset="./Rectangle_tablet.svg"
 						width="378px"
 					/>
-					<img src="./header_moblie.jpg" />
+					<img src="./header_moblie_image.jpg" />
 				</picture>
 			</div>
 
-			<div class="About_ImageHolder">
+			<div class="About_ImageHolder About_ImageHolder--left">
 				<picture>
 					<source
 						media="(min-width: 992px)"
@@ -53,10 +54,46 @@
 						srcset="./header_tablet.jpg"
 						class="About_ImageHolder"
 					/>
-					<img src="./header_moblie.jpg" class="About_ImageHolder" />
+					<img src="./header_mobile.jpg" class="About_ImageHolder" />
 				</picture>
 			</div>
-			<div class="About_text">
+			<div class="About_text About_text_left">
+				<div class="vector_decoration hidden_in_desktop">
+					<img src="./Vector.png" alt="Decoration" srcset="" />
+				</div>
+				<div class="About_textBlock">
+					<img
+						class="vector_decoration hidden_in_moblietablet"
+						src="./Vector.png"
+					/>
+					<h2>Enjoyable place for all the family</h2>
+					<p>
+						Our relaxed surroundings make dining with us a great experience for
+						everyone. We can even arrange a tour of the farm before your meal.
+					</p>
+				</div>
+			</div>
+		</section>
+		<!--------------------------- About Right ------------------------------------------------------->
+		<section class="About About_Right About">
+			<div class="About_decorationBox About_decorationBox_right">
+				<picture>
+					<source
+						media="(min-width: 992px)"
+						alt="box_decoration"
+						srcset="./Rectangle_desktop.svg"
+						width="895px"
+					/>
+					<source
+						media="(min-width: 768px)"
+						alt="box_decoration"
+						srcset="./Rectangle_tablet.svg"
+						width="378px"
+					/>
+					<img src="./header_mobile.jpg" />
+				</picture>
+			</div>
+			<div class="About_text About_text_right">
 				<div class="vector_decoration hidden_in_desktop">
 					<img src="./Vector.png" alt="Decoration" srcset="" />
 				</div>
@@ -67,15 +104,31 @@
 						alt="Decoration"
 						srcset=""
 					/>
-
-					<h2>Enjoyable place for all the family</h2>
+					<h2>The most locally sourced food</h2>
 					<p>
-						Our relaxed surroundings make dining with us a great experience for
-						everyone. We can even arrange a tour of the farm before your meal.
+						All our ingredients come directly from our farm or local fishery. So
+						you can be sure that you’re eating the freshest, most sustainable
+						food.
 					</p>
 				</div>
 			</div>
+			<div class="About_ImageHolder About_ImageHolder--right">
+				<picture>
+					<source
+						media="(min-width: 992px)"
+						alt="relaxing image"
+						srcset="./food_desktop.png"
+					/>
+					<source
+						media="(min-width: 768px)"
+						alt="relaxing image"
+						srcset="./food_tablet.png"
+					/>
+					<img src="./food_mobile.png" class="About_ImageHolder" />
+				</picture>
+			</div>
 		</section>
+
 		<footer></footer>
 	</body>
 </html>
