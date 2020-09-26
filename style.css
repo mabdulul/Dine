@@ -233,9 +233,14 @@ header {
 	order: 2;
 }
 
+.vector_decoration {
+	margin-top: 20px;
+	margin-bottom: 48px;
+}
+
 .About_ImageHolder .vector_decoration {
 	position: relative;
-	top: -60px;
+	/* top: -60px; */
 }
 
 .About_decorationBox {
@@ -369,6 +374,7 @@ header {
 	background-color: #111111;
 	color: #ffffff;
 	justify-content: center;
+	padding-bottom: 82px;
 }
 
 .menu_image {
@@ -432,8 +438,14 @@ header {
 
 	min-width: 327px;
 }
+.menu_linedeco {
+	display: none;
+}
 
 @media (min-width: 768px) {
+	.menu_linedeco {
+		display: inline-block;
+	}
 	.menu_header_text {
 		padding: 0px 100px;
 	}
