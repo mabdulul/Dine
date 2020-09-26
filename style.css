@@ -35,6 +35,9 @@ p {
 header {
 	padding-bottom: 275px;
 }
+section {
+	padding: 0px 24px;
+}
 
 .center {
 	margin-left: auto;
@@ -200,6 +203,7 @@ header {
 	display: grid;
 	justify-items: center;
 	position: relative;
+	margin-bottom: 80px;
 }
 
 .About_textBlock h2 {
@@ -234,7 +238,11 @@ header {
 }
 
 .vector_decoration {
-	margin-top: 20px;
+	margin-top: 2px;
+	margin-bottom: 48px;
+}
+.vector_decoration_bottom {
+	margin-top: 48px;
 	margin-bottom: 48px;
 }
 
