@@ -322,13 +322,12 @@ section {
 		top: -70px;
 	} */
 	.About_ImageHolder--left {
-		top: -150px;
+		top: -70px;
 	}
 
 	.About_ImageHolder {
 		width: 540px;
 
-		margin-top: 30px;
 		z-index: 1;
 	}
 
