@@ -281,6 +281,8 @@ section {
 		display: block;
 		z-index: -1;
 		position: absolute;
+	}
+	.About_decorationBox_left {
 		top: 20%;
 		justify-self: left;
 	}
@@ -289,6 +291,7 @@ section {
 		-webkit-transform: scaleX(-1);
 		transform: scaleX(-1);
 		justify-self: right;
+		top: 75%;
 	}
 
 	.About_ImageHolder {
@@ -301,6 +304,12 @@ section {
 }
 
 @media (min-width: 992px) {
+	.About_decorationBox_right {
+		-webkit-transform: scaleX(-1);
+		transform: scaleX(-1);
+		justify-self: right;
+		top: 40%;
+	}
 	.hidden_in_moblietablet {
 		display: block;
 	}
@@ -315,8 +324,18 @@ section {
 		justify-items: normal;
 		grid-column-gap: 150px;
 		margin-bottom: 0px;
+		padding-top: 20px;
+		padding-bottom: 0px;
+		padding-right: 167px;
+		padding-left: 167px;
 
 		padding: 20px 165px;
+	}
+	.About_left {
+		padding-bottom: 20px;
+	}
+	.About_Right {
+		padding-bottom: 0px;
 	}
 	/* .About_left {
 		top: -70px;
@@ -355,7 +374,7 @@ section {
 
 	.About_textBlock {
 		display: grid;
-		grid-template-rows: 34px 8rem auto;
+		grid-template-rows: 34px 6rem auto;
 	}
 
 	.About_decorationBox {
