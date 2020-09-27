@@ -160,7 +160,7 @@ section {
 	.header_imgTop {
 		background-image: url("./hero-bg.jpg");
 		background-position-x: right;
-		padding: 20px 100px;
+		padding: 67px 165px;
 	}
 
 	.header_content {
@@ -170,7 +170,8 @@ section {
 		top: 0px;
 
 		display: grid;
-		padding: 60px 20px 120px 20px;
+		/* padding: 60px 20px 120px 20px; */
+		padding: 0px;
 		grid-row-gap: 30px;
 		position: relative;
 	}
@@ -208,6 +209,7 @@ section {
 
 .About_textBlock h2 {
 	font-size: 32px;
+	line-height: 40px;
 }
 
 .About_textBlock p {
@@ -312,13 +314,20 @@ section {
 		grid-template-columns: 1fr 1fr;
 		justify-items: normal;
 		grid-column-gap: 150px;
+		margin-bottom: 0px;
 
-		padding: 20px 109px;
+		padding: 20px 165px;
+	}
+	/* .About_left {
+		top: -70px;
+	} */
+	.About_ImageHolder--left {
+		top: -150px;
 	}
 
 	.About_ImageHolder {
 		width: 540px;
-		top: -90px;
+
 		margin-top: 30px;
 		z-index: 1;
 	}
@@ -410,7 +419,7 @@ section {
 }
 
 .Menu h3 {
-	font-size: clamp(32px, 40px, 40px);
+	font-size: 32px;
 	line-height: 40px;
 	letter-spacing: -0.4px;
 }
