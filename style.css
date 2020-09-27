@@ -35,6 +35,7 @@ p {
 header {
 	padding-bottom: 275px;
 }
+
 section {
 	padding: 0px 24px;
 }
@@ -243,6 +244,7 @@ section {
 	margin-top: 2px;
 	margin-bottom: 48px;
 }
+
 .vector_decoration_bottom {
 	margin-top: 48px;
 	margin-bottom: 48px;
@@ -282,6 +284,7 @@ section {
 		z-index: -1;
 		position: absolute;
 	}
+
 	.About_decorationBox_left {
 		top: 20%;
 		justify-self: left;
@@ -310,6 +313,7 @@ section {
 		justify-self: right;
 		top: 40%;
 	}
+
 	.hidden_in_moblietablet {
 		display: block;
 	}
@@ -331,12 +335,15 @@ section {
 
 		padding: 20px 165px;
 	}
+
 	.About_left {
 		padding-bottom: 20px;
 	}
+
 	.About_Right {
 		padding-bottom: 0px;
 	}
+
 	/* .About_left {
 		top: -70px;
 	} */
@@ -345,7 +352,7 @@ section {
 	}
 
 	.About_ImageHolder {
-		width: 540px;
+		width: 520px;
 
 		z-index: 1;
 	}
@@ -377,8 +384,7 @@ section {
 		grid-template-rows: 34px 6rem auto;
 	}
 
-	.About_decorationBox {
-	}
+	.About_decorationBox {}
 
 	.vector_decoration {
 		top: auto;
@@ -412,8 +418,7 @@ section {
 	padding-bottom: 82px;
 }
 
-.menu_image {
-}
+.menu_image {}
 
 .menu_header_text {
 	margin-top: 32px;
@@ -473,25 +478,31 @@ section {
 
 	min-width: 327px;
 }
+
 .menu_linedeco {
 	display: none;
 }
 
 @media (min-width: 768px) {
+
 	.menu_linedeco {
 		display: inline-block;
 	}
+
 	.menu_header_text {
 		padding: 0px 100px;
 	}
+
 	.Menu {
 		padding: 0px 97px;
 		padding-bottom: 97px;
 	}
+
 	.menu_linedeco {
 		position: absolute;
 		top: 15%;
 	}
+
 	.menu_image {
 		width: 127px;
 		margin-right: 7%;
@@ -515,5 +526,27 @@ section {
 	.Menu {
 		display: flex;
 		flex-wrap: nowrap;
+		padding-top: 200px;
+		position: relative;
+		top: -60px;
+	}
+
+	.Menu p {
+
+		width: 397px;
+	}
+
+	.menu_header_text {
+		padding: 0px;
+	}
+
+	.Menu_header {
+		margin-top: 0px;
+		margin-right: 125px;
+	}
+
+	.Menu h3 {
+
+		width: 297px;
 	}
 }
