@@ -130,7 +130,17 @@ section {
 @media (min-width: 768px) {
 	.header_imgTop {
 		background-image: url("./herobgmobile.jpg");
-		padding: 165px;
+
+		padding-top: 167px;
+		padding-left: 97px;
+		padding-right: 98px;
+		padding-bottom: 167px;
+	}
+
+	section {
+		padding-top: 0px;
+		padding-left: 97px;
+		padding-right: 98px;
 	}
 
 	.header_content {
@@ -156,6 +166,10 @@ section {
 @media (min-width: 992px) {
 	header {
 		padding-bottom: 0px;
+	}
+
+	section {
+		padding: 67px 165px;
 	}
 
 	.header_imgTop {
@@ -298,7 +312,7 @@ section {
 	}
 
 	.About_ImageHolder {
-		width: 573px;
+		width: 100%;
 	}
 
 	.About_textBlock p {
@@ -308,8 +322,8 @@ section {
 
 @media (min-width: 992px) {
 	.About_decorationBox_right {
-		-webkit-transform: scaleX(-1);
-		transform: scaleX(-1);
+		-webkit-transform: scaleX(1);
+		transform: scaleX(1);
 		justify-self: right;
 		top: 40%;
 	}
@@ -326,14 +340,12 @@ section {
 		display: grid;
 		grid-template-columns: 1fr 1fr;
 		justify-items: normal;
-		grid-column-gap: 150px;
+		grid-column-gap: 125px;
 		margin-bottom: 0px;
 		padding-top: 20px;
 		padding-bottom: 0px;
-		padding-right: 167px;
-		padding-left: 167px;
-
-		padding: 20px 165px;
+		padding-right: 165px;
+		padding-left: 165px;
 	}
 
 	.About_left {
@@ -352,8 +364,6 @@ section {
 	}
 
 	.About_ImageHolder {
-		width: 520px;
-
 		z-index: 1;
 	}
 
@@ -384,7 +394,8 @@ section {
 		grid-template-rows: 34px 6rem auto;
 	}
 
-	.About_decorationBox {}
+	.About_decorationBox {
+	}
 
 	.vector_decoration {
 		top: auto;
@@ -418,7 +429,8 @@ section {
 	padding-bottom: 82px;
 }
 
-.menu_image {}
+.menu_image {
+}
 
 .menu_header_text {
 	margin-top: 32px;
@@ -484,7 +496,6 @@ section {
 }
 
 @media (min-width: 768px) {
-
 	.menu_linedeco {
 		display: inline-block;
 	}
@@ -494,7 +505,6 @@ section {
 	}
 
 	.Menu {
-		padding: 0px 97px;
 		padding-bottom: 97px;
 	}
 
@@ -532,7 +542,6 @@ section {
 	}
 
 	.Menu p {
-
 		width: 397px;
 	}
 
@@ -546,7 +555,6 @@ section {
 	}
 
 	.Menu h3 {
-
 		width: 297px;
 	}
 }
