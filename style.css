@@ -539,6 +539,7 @@ section {
 		padding-top: 200px;
 		position: relative;
 		top: -60px;
+		justify-content: space-between;
 	}
 
 	.Menu p {
@@ -551,7 +552,6 @@ section {
 
 	.Menu_header {
 		margin-top: 0px;
-		margin-right: 125px;
 	}
 
 	.Menu h3 {
