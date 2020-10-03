@@ -323,7 +323,7 @@ section {
 		display: grid;
 		grid-template-columns: 1fr 1fr;
 		justify-items: normal;
-		grid-column-gap: 150px;
+		grid-column-gap: 125px;
 		margin-bottom: 0px;
 		padding-top: 20px;
 		padding-bottom: 0px;
