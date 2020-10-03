@@ -279,6 +279,10 @@ section {
 }
 
 @media (min-width: 768px) {
+	.About {
+		padding-left: 104px;
+		padding-right: 91px;
+	}
 	.About_decorationBox {
 		display: block;
 		z-index: -1;
@@ -363,7 +367,6 @@ section {
 	}
 
 	.About_text_right {
-		justify-self: end;
 		order: 1;
 	}
 
