@@ -360,6 +360,9 @@ section {
 		display: grid;
 		text-align: left;
 		grid-template-rows: 0px 108px;
+
+		min-width: auto;
+		max-width: auto;
 	}
 
 	.About_text_left {
@@ -377,7 +380,7 @@ section {
 
 	.About_textBlock {
 		display: grid;
-		grid-template-rows: 34px 6rem auto;
+		grid-template-rows: 34px 8rem auto;
 	}
 
 	.About_decorationBox {
