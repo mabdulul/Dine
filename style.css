@@ -279,9 +279,6 @@ section {
 }
 
 @media (min-width: 768px) {
-	#test {
-		width: 100vw;
-	}
 	.About_decorationBox {
 		display: block;
 		z-index: -1;
@@ -310,16 +307,6 @@ section {
 }
 
 @media (min-width: 992px) {
-<<<<<<< HEAD
-=======
-	.About_decorationBox_right {
-		-webkit-transform: scaleX(-1);
-		transform: scaleX(-1);
-		justify-self: right;
-		top: 40%;
-	}
-
->>>>>>> parent of 9da0b32... aligment
 	.hidden_in_moblietablet {
 		display: block;
 	}
@@ -327,6 +314,7 @@ section {
 	.hidden_in_desktop {
 		display: none;
 	}
+
 	.About {
 		display: grid;
 		grid-template-columns: 1fr 1fr;
@@ -344,15 +332,14 @@ section {
 	.About_left {
 		padding-bottom: 20px;
 	}
+
 	.About_Right {
 		padding-bottom: 0px;
 	}
-	.About_decorationBox_right {
-		-webkit-transform: scaleX(1);
-		transform: scaleX(1);
-		justify-self: right;
-		top: 40%;
-	}
+
+	/* .About_left {
+		top: -70px;
+	} */
 	.About_ImageHolder--left {
 		top: -70px;
 	}
@@ -361,11 +348,6 @@ section {
 		width: 520px;
 
 		z-index: 1;
-	}
-
-	.About_ImageHolder--right {
-		top: auto;
-		order: 2;
 	}
 
 	.About_text {
@@ -384,15 +366,29 @@ section {
 		justify-self: end;
 		order: 1;
 	}
+
+	.About_ImageHolder--right {
+		top: auto;
+		order: 2;
+	}
+
 	.About_textBlock {
 		display: grid;
 		grid-template-rows: 34px 6rem auto;
 	}
 
-	.About_decorationBox {}
+	.About_decorationBox {
+	}
 
 	.vector_decoration {
 		top: auto;
+	}
+
+	.AboutTwo {
+		position: relative;
+		display: grid;
+		justify-content: end;
+		grid-template-columns: 1fr 1fr;
 	}
 
 	.About_text_two {
@@ -416,7 +412,8 @@ section {
 	padding-bottom: 82px;
 }
 
-.menu_image {}
+.menu_image {
+}
 
 .menu_header_text {
 	margin-top: 32px;
@@ -482,7 +479,6 @@ section {
 }
 
 @media (min-width: 768px) {
-
 	.menu_linedeco {
 		display: inline-block;
 	}
@@ -531,7 +527,6 @@ section {
 	}
 
 	.Menu p {
-
 		width: 397px;
 	}
 
@@ -544,7 +539,6 @@ section {
 	}
 
 	.Menu h3 {
-
 		width: 297px;
 	}
 }
