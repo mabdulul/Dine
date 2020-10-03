@@ -363,7 +363,7 @@ section {
 	}
 
 	.About_text_left {
-		justify-self: auto;
+		justify-self: end;
 	}
 
 	.About_text_right {
