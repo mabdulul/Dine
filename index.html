@@ -37,8 +37,7 @@
 					<img src="./header_moblie_image.jpg" />
 				</picture>
 			</div>
-
-			<div class="About_ImageHolder About_ImageHolder--left">
+			<div>
 				<picture>
 					<source
 						media="(min-width: 992px)"
@@ -52,9 +51,13 @@
 						srcset="./header_tablet.jpg"
 						class="About_ImageHolder"
 					/>
-					<img src="./header_mobile.jpg" class="img-responsive" />
+					<img
+						src="./header_mobile.jpg"
+						class="img-responsive About_ImageHolder About_ImageHolder--left"
+					/>
 				</picture>
 			</div>
+
 			<div class="About_text About_text_left">
 				<div class="vector_decoration hidden_in_desktop">
 					<img src="./Vector.png" alt="Decoration" srcset="" />
@@ -109,7 +112,8 @@
 					</p>
 				</div>
 			</div>
-			<div class="About_ImageHolder About_ImageHolder--right">
+
+			<div class="About_order_right">
 				<picture>
 					<source
 						media="(min-width: 992px)"
@@ -121,7 +125,10 @@
 						alt="relaxing image"
 						srcset="./food_tablet.png"
 					/>
-					<img src="./food_mobile.png" class="img-responsive" />
+					<img
+						src="./food_mobile.png"
+						class="img-responsive About_ImageHolder About_ImageHolder--right"
+					/>
 				</picture>
 			</div>
 		</section>

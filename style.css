@@ -318,6 +318,9 @@ section {
 	.hidden_in_desktop {
 		display: none;
 	}
+	.About_order_right {
+		order: 2;
+	}
 
 	.About {
 		display: grid;
@@ -349,7 +352,9 @@ section {
 	}
 
 	.About_ImageHolder {
-		width: 520px;
+		width: 100%;
+		max-width: 100%;
+		max-height: 100%;
 
 		z-index: 1;
 	}
